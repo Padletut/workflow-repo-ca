@@ -9,6 +9,7 @@ export default [
       globals: {
         ...globals.browser,
         module: true,
+        global: true,
       },
     },
     rules: {
