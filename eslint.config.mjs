@@ -11,5 +11,9 @@ export default [
         module: true,
       },
     },
+    rules: {
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
+    },
   },
 ];
