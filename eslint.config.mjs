@@ -10,6 +10,8 @@ export default [
         ...globals.browser,
         module: true,
         global: true,
+        require: true,
+        process: true,
       },
     },
     rules: {
